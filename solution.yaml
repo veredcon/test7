@@ -1,0 +1,12 @@
+apiVersion: solution.sap/v1
+kind: Solution
+
+metadata:
+  name: invoice-approval-monitor-agent
+  version: "1.0.0"
+  description: "AI agent that monitors invoice approvals, flags high-value pending invoices over 50K, generates weekly CFO summaries, and triggers email via n8n workflow every Monday morning."
+
+type: composite
+
+assets:
+  - ref: ./assets/agent/asset.yaml

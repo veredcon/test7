@@ -1,0 +1,138 @@
+{
+  "summary": {
+    "total": 21,
+    "passed": 21,
+    "failed": 0,
+    "score": 100.0
+  },
+  "sections": [
+    {
+      "name": "Structure Tests",
+      "marker": "structure",
+      "total": 6,
+      "passed": 6,
+      "failed": 0,
+      "skipped": 0,
+      "score": 100.0,
+      "tests": [
+        {
+          "name": "test_agent_directory_exists",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "test_app_directory_exists",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "test_requirements_txt_exists",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "test_asset_yaml_exists",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "test_asset_yaml_is_valid_yaml",
+          "outcome": "passed",
+          "duration": 0.004
+        },
+        {
+          "name": "test_asset_yaml_has_required_fields",
+          "outcome": "passed",
+          "duration": 0.0035
+        }
+      ]
+    },
+    {
+      "name": "Agent Tests",
+      "marker": "agent_tests",
+      "total": 15,
+      "passed": 15,
+      "failed": 0,
+      "skipped": 0,
+      "score": 100.0,
+      "tests": [
+        {
+          "name": "test_log_flag_appends_entry",
+          "outcome": "passed",
+          "duration": 0.0014
+        },
+        {
+          "name": "test_log_notification_appends_entry",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "test_get_log_returns_copy",
+          "outcome": "passed",
+          "duration": 0.0001
+        },
+        {
+          "name": "test_multiple_entries_accumulated",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "test_clear_resets_log",
+          "outcome": "passed",
+          "duration": 0.0001
+        },
+        {
+          "name": "test_weekly_summary_pipeline",
+          "outcome": "passed",
+          "duration": 3.8186
+        },
+        {
+          "name": "test_weekly_summary_empty_flagged",
+          "outcome": "passed",
+          "duration": 0.0004
+        },
+        {
+          "name": "test_scan_invoices_returns_flagged_list",
+          "outcome": "passed",
+          "duration": 0.0003
+        },
+        {
+          "name": "test_scan_invoices_not_flagged_low_amount",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "test_scan_invoices_not_flagged_recent",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "test_scan_invoices_approved_not_flagged",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "test_scan_invoices_flagged_contain_required_fields",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "test_generate_summary_empty_flagged",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "test_generate_summary_returns_string",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "test_generate_summary_empty_flagged_no_llm_call",
+          "outcome": "passed",
+          "duration": 0.0002
+        }
+      ],
+      "coverage": 20.47
+    }
+  ]
+}
